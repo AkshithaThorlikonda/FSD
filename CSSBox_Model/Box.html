@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BoxModel</title>
+    <link rel="icon" type="image/png" href="./img1.png">
+    <style>
+        *{
+            background-color:cyan;
+        }
+        section div{
+            border: 2px solid brown;
+            margin-bottom: 15px;
+            padding: 10px;
+            float: left; /* converts block level to inline */
+            width: 16.5%;
+            height: 60px;
+            margin-left: 2px;
+            box-sizing: border-box;
+        }
+        #id1 div{
+            float: left;
+            height: 600px;
+            width: 49.7%;
+            box-sizing:border-box;
+
+        }
+        img{
+            border: 2px solid black;
+            margin-left: 10px;
+            padding: 10px;
+            height: 400px;
+            width: 70%;
+        }
+        #id2 div{
+            float: left;
+            height: 600px;
+            width: 33%;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>Kona</div>
+        <div>Products</div>
+        <div>Services</div>
+        <div>Solutions</div>
+        <div>Pricing</div>
+        <div>Try For Free</div>
+    </section>
+    <section id="id1">
+        <div>Digital Lync Kona
+            <p>You can learn more about Programing Languages.</p>
+            <img src="img1.png" alt="Kona">
+        </div>
+        <div>Free Demo
+            <p>See free Demo You can change your life.</p>
+            <img src="img3.jpeg" alt="Demo">
+        </div>
+    </section>
+    <section id="id2">
+        <div>What is LMS?
+            <p>A learning management system (LMS) allows you to create, distribute, Collaborate and track Leaning anywhere, on any device.</p>
+            <img src="img2.jpeg" alt="LMS">
+        </div>
+        <div>LMS For Education
+            <p>Creating a structured learning environment digitally that can lay a strong foundation to a student's early years of education.</p>
+            <img src="img4.jpeg" alt="Work">
+
+        </div>
+        <div>LMS For Institutions
+            <p>Putting convenience and experience into the focus which empowers both learner and instructor at the same time.</p>
+            <img src="img5.jpeg" alt="Login">
+        </div>
+    </section>
+
+</body>
+</html>
